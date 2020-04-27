@@ -1,9 +1,5 @@
 from cv2 import cv2
 
-#img=cv2.imread("c:\\Users\\aksha\Desktop\\button.png")
-#cv2.imshow("button",img)
-#cv2.waitKey(2000)
-#cv2.destroyAllWindows()
 face_cascade = cv2.CascadeClassifier("c:\\Users\\aksha\Desktop\\haarcascade_frontalface_default.xml")#read haarcascade stored on your computer
 img = cv2.imread("c:\\Users\\aksha\Desktop\\akshata.png")#read an image stored on your computer
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)#coverting to grey colour image
